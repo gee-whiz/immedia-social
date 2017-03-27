@@ -7,6 +7,10 @@ target 'immedia social' do
   
 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'SwiftKeychainWrapper'
 
   target 'immedia socialTests' do
     inherit! :search_paths

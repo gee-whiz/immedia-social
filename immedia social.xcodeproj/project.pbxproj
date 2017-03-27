@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		144B80843DA49CB2582BA43A /* Pods_immedia_socialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922E249B631EE21CA1F8606 /* Pods_immedia_socialUITests.framework */; };
 		5A632C9EB5A393339E2CAD78 /* Pods_immedia_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF3905E2034451C94C2FD74 /* Pods_immedia_social.framework */; };
+		5E18B9031E854BB5000D6153 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18B9021E854BB5000D6153 /* Constants.swift */; };
+		5E18B9051E854E7F000D6153 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18B9041E854E7F000D6153 /* ChatTableViewController.swift */; };
+		5E18B9071E85517E000D6153 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18B9061E85517E000D6153 /* HomeTableViewController.swift */; };
+		5E18B9091E855A47000D6153 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18B9081E855A47000D6153 /* HomeViewController.swift */; };
 		5E1B484F1E83A07E003A437D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B484E1E83A07E003A437D /* AppDelegate.swift */; };
 		5E1B48511E83A07E003A437D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B48501E83A07E003A437D /* ViewController.swift */; };
 		5E1B48541E83A07E003A437D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B48521E83A07E003A437D /* Main.storyboard */; };
@@ -17,6 +21,7 @@
 		5E1B48641E83A07E003A437D /* immedia_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B48631E83A07E003A437D /* immedia_socialTests.swift */; };
 		5E1B486F1E83A07E003A437D /* immedia_socialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B486E1E83A07E003A437D /* immedia_socialUITests.swift */; };
 		5E1B487D1E83A6D3003A437D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E1B487C1E83A6D3003A437D /* GoogleService-Info.plist */; };
+		5E1B48821E83AC4C003A437D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B48811E83AC4C003A437D /* LoginViewController.swift */; };
 		AAA99833AA1570D263E6B623 /* Pods_immedia_socialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AD2EF6321E7121504D2A6C /* Pods_immedia_socialTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +45,10 @@
 /* Begin PBXFileReference section */
 		3E67D1FDF14C8526D8822D9E /* Pods-immedia socialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immedia socialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-immedia socialUITests/Pods-immedia socialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4963EE052C46C9B4B4E3E8D2 /* Pods-immedia social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immedia social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-immedia social/Pods-immedia social.debug.xcconfig"; sourceTree = "<group>"; };
+		5E18B9021E854BB5000D6153 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E18B9041E854E7F000D6153 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		5E18B9061E85517E000D6153 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		5E18B9081E855A47000D6153 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5E1B484B1E83A07E003A437D /* immedia social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "immedia social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1B484E1E83A07E003A437D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1B48501E83A07E003A437D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +63,7 @@
 		5E1B486E1E83A07E003A437D /* immedia_socialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = immedia_socialUITests.swift; sourceTree = "<group>"; };
 		5E1B48701E83A07E003A437D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E1B487C1E83A6D3003A437D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E1B48811E83AC4C003A437D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6763F73FA711945D63A17B50 /* Pods-immedia socialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-immedia socialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-immedia socialTests/Pods-immedia socialTests.release.xcconfig"; sourceTree = "<group>"; };
 		A922E249B631EE21CA1F8606 /* Pods_immedia_socialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immedia_socialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF3905E2034451C94C2FD74 /* Pods_immedia_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immedia_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E18B9011E854B9D000D6153 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5E18B9021E854BB5000D6153 /* Constants.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		5E1B48421E83A07E003A437D = {
 			isa = PBXGroup;
 			children = (
@@ -117,8 +135,11 @@
 		5E1B484D1E83A07E003A437D /* immedia social */ = {
 			isa = PBXGroup;
 			children = (
+				5E18B9011E854B9D000D6153 /* Utils */,
+				5E1B487E1E83AC05003A437D /* Model */,
+				5E1B487F1E83AC0E003A437D /* View */,
+				5E1B48801E83AC17003A437D /* Controller */,
 				5E1B484E1E83A07E003A437D /* AppDelegate.swift */,
-				5E1B48501E83A07E003A437D /* ViewController.swift */,
 				5E1B48521E83A07E003A437D /* Main.storyboard */,
 				5E1B48551E83A07E003A437D /* Assets.xcassets */,
 				5E1B48571E83A07E003A437D /* LaunchScreen.storyboard */,
@@ -143,6 +164,32 @@
 				5E1B48701E83A07E003A437D /* Info.plist */,
 			);
 			path = "immedia socialUITests";
+			sourceTree = "<group>";
+		};
+		5E1B487E1E83AC05003A437D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5E1B487F1E83AC0E003A437D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5E1B48801E83AC17003A437D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E1B48811E83AC4C003A437D /* LoginViewController.swift */,
+				5E1B48501E83A07E003A437D /* ViewController.swift */,
+				5E18B9041E854E7F000D6153 /* ChatTableViewController.swift */,
+				5E18B9061E85517E000D6153 /* HomeTableViewController.swift */,
+				5E18B9081E855A47000D6153 /* HomeViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		8EC81154A8D9F1D556133CBF /* Pods */ = {
@@ -453,8 +500,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E18B9071E85517E000D6153 /* HomeTableViewController.swift in Sources */,
+				5E1B48821E83AC4C003A437D /* LoginViewController.swift in Sources */,
 				5E1B48511E83A07E003A437D /* ViewController.swift in Sources */,
 				5E1B484F1E83A07E003A437D /* AppDelegate.swift in Sources */,
+				5E18B9031E854BB5000D6153 /* Constants.swift in Sources */,
+				5E18B9091E855A47000D6153 /* HomeViewController.swift in Sources */,
+				5E18B9051E854E7F000D6153 /* ChatTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
